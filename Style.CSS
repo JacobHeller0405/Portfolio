@@ -10,11 +10,41 @@
   background-image: linear-gradient(cyan, blue);
 }
 
-.whoami {
+#whoami {
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.whoami p {
+#whoami p {
   font-size: 20px;
+}
+
+.Aboutme .card {
+  min-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Portfolio .card {
+  min-height: 352px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Portfolio .card-body {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#whoami {
+  min-height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
