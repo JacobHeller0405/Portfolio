@@ -1,13 +1,42 @@
+body, html {
+  margin: 0px;
+  height: 100%;
+}
+
+.page {
+  height: 100vh;
+}
+
 .Index {
   background-image: linear-gradient(cyan, blue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+  height: 100vh;
 }
 
 .Aboutme {
   background-image: linear-gradient(cyan, blue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+  height: 100vh;
 }
 
 .Portfolio {
   background-image: linear-gradient(cyan, blue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+  height: 100vh;
+}
+
+.Contact {
+  background-image: linear-gradient(cyan, blue);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+  height: 100vh;
 }
 
 #whoami {
@@ -28,7 +57,7 @@
 }
 
 .Portfolio .card {
-  min-height: 352px;
+  min-height: 452px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +66,6 @@
 
 .Portfolio .card-body {
   height: 100px;
-  line-height: 100px;
   text-align: center;
 }
 
@@ -47,4 +75,59 @@
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+}
+
+#feedbackForm {
+  font-family: Verdana, sans-serif;
+  margin-top: 10px;
+  padding: 0 20px 15px 20px;
+}
+
+#feedbackForm legend {
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0 .2em;
+}
+
+#feedbackForm label {
+  display: block;
+  padding-top: 1em;
+}
+
+#feedbackForm label:first-of-type {
+  margin-top: -.9em;
+}
+
+#nameLabel {
+	margin-top: -1em;
+}
+
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #5e6570;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #2f3236;
+	margin-top: 15px;
+}
+
+.textfield {
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid #bbb;
+	width: 97%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
